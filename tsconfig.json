@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    // "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    // "allowJs": false,
+    // "allowSyntheticDefaultImports": true,
+    // "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Node",
+    "strict": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "skipLibCheck": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["shared/components/*"],
+      "@assets/*": ["assets/*"],
+      "@helpers/*": ["shared/helpers/*"],
+      "@constants/*": ["shared/constants/*"]
+    }
+  },
+  "include": ["src"],
+  // "types": ["node", "jest", "@testing-library/jest-dom"],
+  // "references": [{ "path": "./tsconfig.node.json" }]
+}
