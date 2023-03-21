@@ -2,10 +2,6 @@
   "compilerOptions": {
     "target": "ESNext",
     "useDefineForClassFields": true,
-    // "lib": ["DOM", "DOM.Iterable", "ESNext"],
-    // "allowJs": false,
-    // "allowSyntheticDefaultImports": true,
-    // "forceConsistentCasingInFileNames": true,
     "jsx": "react-jsx",
     "module": "ESNext",
     "lib": ["ESNext", "DOM"],
@@ -28,6 +24,4 @@
     }
   },
   "include": ["src"],
-  // "types": ["node", "jest", "@testing-library/jest-dom"],
-  // "references": [{ "path": "./tsconfig.node.json" }]
 }
