@@ -18,8 +18,8 @@ const listCoins = () => {
   return apiCall({ url });
 };
 
-const getCoins = async (criteria?: string) => {
-  return !criteria ? listCoins() : searchCoins(criteria);
+const getCoins = (criteria?: string) => {
+  return (!criteria) ? listCoins() : searchCoins(criteria as string) ;
 };
 
 const getCoin = async (id: string) => {

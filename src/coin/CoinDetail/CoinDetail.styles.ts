@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { breakpoints, colors } from 'shared/constants';
+import { breakpoints, colors } from '@constants/index';
 
 const CoinDetailWrapper = styled.section`
   margin: 2rem auto;

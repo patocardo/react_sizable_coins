@@ -1,5 +1,6 @@
 import { render, screen, waitFor } from '@testing-library/react';
-import '@types/jest';
+// import '@types/jest';
+import 'jest';
 import CoinList from '../CoinList/CoinList';
 
 jest.mock('../coin.service', () => ({

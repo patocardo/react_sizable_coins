@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { breakpoints } from '../../shared/constants'
+import breakpoints from '@constants/breakpoints'
 import { Link } from 'react-router-dom';
 
 const CoinListContainer = styled.div`

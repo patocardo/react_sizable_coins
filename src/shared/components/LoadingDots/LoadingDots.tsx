@@ -1,7 +1,7 @@
 import { Dot, DotWrapper, MessageWrapper } from './LoadingDots.styles'
 import { LoadingDotsProps } from './LoadingDots.types';
 
-const LoadingDots = ({ text, color = 'white'}: LoadingDotsProps) => (
+const LoadingDots = ({ text }: LoadingDotsProps) => (
   <MessageWrapper aria-live="polite">
     { text }
     <DotWrapper>
